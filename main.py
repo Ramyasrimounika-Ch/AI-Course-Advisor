@@ -103,7 +103,7 @@ if want_chatbot:
     ques = st.sidebar.text_area("Ask your doubt")
 
     if ques:
-        llm=ChatGroq( api_key="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", model="llama-3.1-8b-instant" )
+        llm=ChatGroq(model="llama-3.1-8b-instant" )
         res = llm.invoke(ques)
         st.sidebar.write(res.content)
 
