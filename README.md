@@ -140,37 +140,37 @@ ai_course/
 
 ├── pages/                 ← UI Layer (Streamlit Pages)
 
-│   ├── login.py           ← Authentication
+│     ├── login.py           ← Authentication
 
-│   ├── notes_gen.py       ← AI Notes Generator
+│     ├── notes_gen.py       ← AI Notes Generator
 
-│   ├── quiz_platform.py  ← Subtopic Quiz Engine
+│     ├── quiz_platform.py  ← Subtopic Quiz Engine
 
-│   ├── quiz_overall.py   ← Chapter-Level Quiz
+│     ├── quiz_overall.py   ← Chapter-Level Quiz
 
-│   ├── youtube_gen.py    ← YouTube Resource Generator
+│     ├── youtube_gen.py    ← YouTube Resource Generator
 
-│   ├── progress_dashboard.py ← User Progress Viewer
+│     ├── progress_dashboard.py ← User Progress Viewer
 
-│   └── last.py            ← Completion / Summary Page
+│     └── last.py            ← Completion / Summary Page
 
 │
 
 ├── src/                   ← Core Logic Layer
 
-│   ├── topics.py          ← Skill Gap + Course Roadmap
+│     ├── topics.py          ← Skill Gap + Course Roadmap
 
-│   ├── notes.py           ← Notes Prompt & Formatting
+│     ├── notes.py           ← Notes Prompt & Formatting
 
-│   ├── quiz.py            ← MCQ Generation Logic
+│     ├── quiz.py            ← MCQ Generation Logic
 
-│   ├── progress.py        ← Progress Persistence
+│     ├── progress.py        ← Progress Persistence
 
-│   ├── youtube.py         ← Resource Generation
+│     ├── youtube.py         ← Resource Generation
 
-│   ├── download.py        ← PDF Generator
+│     ├── download.py        ← PDF Generator
 
-│   └── db.py              ← Database Abstraction
+│     └── db.py              ← Database Abstraction
 
 │
 
