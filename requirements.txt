@@ -1,0 +1,9 @@
+langchain=1.0.3
+langchain-groq=0.3.8
+streamlit=1.50.0
+python-dotenv=1.1.1
+langchain_community=0.3.29
+reportlab=4.4.4
+google-api-python-client=2.183.0
+setuptools=80.9.0
+mysql-connector-python=9.5.0
