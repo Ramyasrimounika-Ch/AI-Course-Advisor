@@ -130,57 +130,34 @@ Auth: Password hashing + session state
 
 # 🏗️ Project Architecture
 
+```text
 ai_course/
-
 │
-
 ├── main.py                ← Application Controller
-
 │
-
 ├── pages/                 ← UI Layer (Streamlit Pages)
-
-│     ├── login.py           ← Authentication
-
-│     ├── notes_gen.py       ← AI Notes Generator
-
-│     ├── quiz_platform.py  ← Subtopic Quiz Engine
-
-│     ├── quiz_overall.py   ← Chapter-Level Quiz
-
-│     ├── youtube_gen.py    ← YouTube Resource Generator
-
-│     ├── progress_dashboard.py ← User Progress Viewer
-
-│     └── last.py            ← Completion / Summary Page
-
+│   ├── login.py           ← Authentication
+│   ├── notes_gen.py       ← AI Notes Generator
+│   ├── quiz_platform.py  ← Subtopic Quiz Engine
+│   ├── quiz_overall.py   ← Chapter-Level Quiz
+│   ├── youtube_gen.py    ← YouTube Resource Generator
+│   ├── progress_dashboard.py ← User Progress Viewer
+│   └── last.py            ← Completion / Summary Page
 │
-
 ├── src/                   ← Core Logic Layer
-
-│     ├── topics.py          ← Skill Gap + Course Roadmap
-
-│     ├── notes.py           ← Notes Prompt & Formatting
-
-│     ├── quiz.py            ← MCQ Generation Logic
-
-│     ├── progress.py        ← Progress Persistence
-
-│     ├── youtube.py         ← Resource Generation
-
-│     ├── download.py        ← PDF Generator
-
-│     └── db.py              ← Database Abstraction
-
+│   ├── topics.py          ← Skill Gap + Course Roadmap
+│   ├── notes.py           ← Notes Prompt & Formatting
+│   ├── quiz.py            ← MCQ Generation Logic
+│   ├── progress.py        ← Progress Persistence
+│   ├── youtube.py         ← Resource Generation
+│   ├── download.py        ← PDF Generator
+│   └── db.py              ← Database Abstraction
 │
-
 ├── users.db               ← User Credentials
-
 ├── progress.db            ← Learning Progress
-
 ├── .env                   ← API Keys
-
 └── requirements.txt
+```
 
 # 👩‍💻 Author
 
